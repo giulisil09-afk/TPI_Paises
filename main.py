@@ -145,6 +145,7 @@ def agregar_pais(paises):
     # -----------------------------
     paises.append(nuevo_pais)
 
+    guardar_csv("paises.csv", paises)
     print("País agregado correctamente.")
 
 
